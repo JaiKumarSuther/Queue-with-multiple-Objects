@@ -5,11 +5,7 @@ public class QueueMultiple implements queue {
     QueueMultiple(int size) {
         products = new Products[size];
     }
-
-    public void add(Products products) {
-        this.products[size] = products;
-    }
-
+    
     public void display() {
         for (int i = 0; i < size; i++) {
             System.out.print(i+1 + ":");
